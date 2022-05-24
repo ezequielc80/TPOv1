@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Smokum&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">     
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet"> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet"> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet"> 
+
+<title>Reserva</title>
+</head>
+
+<body>
+    <header>
+        <div class="container_header">
+            <a href="index.html">
+                <img src="imagenes/seleccion galeria/logo3.PNG" alt="" width="90" height="60">
+                <!-- <img src="imagenes/Restaurant _Two Color.svg" alt="Restaurant" width="100"> -->
+            </a>
+            <p>bon goût</p>
+            <ul class="navegation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="historia.html">Nuestra Historia</a></li>
+                <li><a href="reserva.html">Reserva</a></li>
+                <li><a href="sucursales.html">Sucursales</a></li>
+            </ul>
+        </div> 
+    </header> 
+    <main>
+        <section class="reserva">
+            <h1>¡Hace tu reserva!</h1>
+            <div>
+                <form class="formulario" action="" target="_blank">                                     
+                        <label for="nombre"> Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Ingrese tu nombre...">
+                        
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" name="apellido" id="apellido" placeholder="Ingrese tu apellido...">
+                        
+                        <label for="edad">Edad:</label>
+                        <input type="number" name="edad" id="edad">
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                        
+                        <label for="telefono">Telefono:</label>
+                        <input type="tel" name="telefono" id="telefono">
+                                 
+                    <label for="sucursales">Sucursales:</label>
+                    <select name="sucursales" id="sucursales">
+                        <option value="palermo">Palermo</option>
+                        <option value="devoto">Devoto</option>
+                        <option value="caballito">Caballito</option>
+                    </select>
+                    
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" name="fecha" id="fecha">
+                    
+                    <label for="horario">Horario:</label>
+                    <select name="horario" id="horario">
+                        <option value="desayuno">Desayuno</option>
+                        <option value="almuerzo">Almuerzo</option>
+                        <option value="medienda">Merienda</option>
+                        <option value="cena">Cena</option>
+                    </select>                   
+                    
+                    <label for="personas">Cantidad de Personas:</label>
+                    <input type="number" name="personas" id="personas">
+                    
+                    <label for="comentarios">Comentarios:</label>  
+                    <textarea name="comentarios" rows="10" cols="30">Escribe tu comentario...</textarea>
+                    
+                    <input type="submit" value="Enviar" id="enviar">
+                          
+                </form>
+            </div>
+        </section>
+    </main>
+        <footer>
+            <div class="container_footer">
+                <div class="site_map">
+                    <i class='bx bx-sitemap bx-md' style='color:#ffffff'  ></i>
+                    <ul class="list_site">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="historia.html">Nuestra Historia</a></li>
+                        <li><a href="reserva.html">Reserva</a></li>
+                        <li><a href="sucursales.html">Sucursales</a></li>
+                    </ul>
+                </div>
+                <div class="trabajar">
+                    <i class='bx bxs-user-plus bx-md' style='color:#ffffff'  ></i>
+                    <p>¿Queres trabajar</p>
+                    <p>con nosotros?</p>
+                    <a href="mailto:rrhh@bon-gout.com.ar">rrhh@bon-gout.com.ar</a>
+                </div>
+                <div class="contacto">
+                    <i class='bx bx-envelope bx-md'></i>
+                    <p>Contacto</p>
+                    <a href="mailto:contacto@bon-gout.com.ar">contacto@bon-gout.com.ar</a>
+                </div>
+                <div class="redes_sociales">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <i class='bx bxl-instagram bx-md' style='color:#ffffff'  ></i>
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class='bx bxl-facebook-circle bx-md' style='color:#ffffff'  ></i> 
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <i class='bx bxl-twitter bx-md' style='color:#ffffff'  ></i>
+                    </a>    
+                </div>
+            </div>    
+        </footer>
+</body>
+</html>
